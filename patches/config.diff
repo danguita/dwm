@@ -3,7 +3,7 @@ new file mode 100644
 index 0000000..e47dbd7
 --- /dev/null
 +++ b/config.h
-@@ -0,0 +1,117 @@
+@@ -0,0 +1,118 @@
 +/* See LICENSE file for copyright and license details. */
 +
 +/* appearance */
@@ -43,6 +43,7 @@ index 0000000..e47dbd7
 +static const int nmaster     = 1;    /* number of clients in master area */
 +static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 +static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
++static const int refreshrate = 120;  /* refresh rate (per second) for client move/resize */
 +
 +static const Layout layouts[] = {
 +	/* symbol     arrange function */
